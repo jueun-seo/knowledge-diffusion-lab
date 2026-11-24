@@ -1,0 +1,29 @@
+{
+  "updatedAt": "2026-11-23",
+  "concepts": [
+    {
+      "id": "fastapi-return-list-of-dicts",
+      "title": "FastAPI 라우트 반환값(리스트 안 딕셔너리 / JSON)",
+      "codeSnippet": "return [{'id': 1, 'caption': '오늘 처음 만든 인스타 첫 글'}, {'id': 2, 'caption': '오늘 처음 만든 인스타 두번째 글'}]",
+      "repeatCountIncrement": 1,
+      "logsToAppend": [
+        {
+          "date": "2026-11-23",
+          "summary": "리스트([])는 순서가 있는 목록, 딕셔너리({})는 '이름표: 값' 카드임을 구분하고 여러 게시물을 담기 위해 리스트 안에 딕셔너리를 넣는 구조와 id·caption 역할 이해"
+        }
+      ]
+    },
+    {
+      "id": "uv-venv-fastapi-port",
+      "title": "uv 가상환경(.venv)과 FastAPI 개발 서버·포트 실행",
+      "codeSnippet": "uv run fastapi dev main.py --port 8001",
+      "repeatCountIncrement": 1,
+      "logsToAppend": [
+        {
+          "date": "2026-11-23",
+          "summary": ".venv로 프로젝트별 환경을 분리하고, 포트 충돌을 피해 --port 8001로 서버를 띄워 /docs와 /posts 응답 확인"
+        }
+      ]
+    }
+  ]
+}

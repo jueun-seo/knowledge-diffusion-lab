@@ -1,0 +1,7 @@
+# 운영체제가 저절로 만드는 파일
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Claude 앱이 만든 작업용 폴더
+Claude outputs/
